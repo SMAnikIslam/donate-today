@@ -1,0 +1,22 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 2px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
