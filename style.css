@@ -4,7 +4,11 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
 }
 
 .container {
@@ -19,4 +23,47 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
+}
+
+.button {
+    display: ruby-text;
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(185, 183, 183));
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    color: azure;
+}
+
+.division {
+    margin-bottom: 10px;
+}
+
+.second-header {
+
+    text-align: center;
+}
+
+#margin {
+    margin-bottom: 5px;
+}
+
+.funding-money {
+    height: 200px;
+    width: 200px;
+
+    float: left;
+    text-align: center;
+    margin: 4px;
+    background-color: aliceblue;
+
+
+}
+
+#right-sorai {
+    background-color: rgb(116, 220, 217);
+    margin-left: 200px;
+    border-color: blue;
+    border: 5px black double;
 }
